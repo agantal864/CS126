@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <title>Fly me to the Moon</title>
+    <script type="text/javascript" src="AGANTALWK06.js"></script>
+    
+    <style>
+        h1.heading {
+            text-align: center;
+        }
+        p.descrip, p.name {
+            color: slategray;
+            text-align: center;
+        }
+        div.input {
+            display: block;
+            text-align: center;
+            width: 600px;
+            height: 30px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        button {
+            margin-top: 15px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        p {
+            text-align: center;
+        }
+    </style>
+    
+</head>
+    
+
+<body>
+    <h1 class="heading" style=" ">Fly me to the Moon Airlines</h1>
+    <p class="descrip">This program serves as a simulation that will ask the user to input his information like his name, departure date, etc., for the booking of flight.</p>
+    <p class="name">Name: Azis Agantal</p>
+    
+    <div class="input">
+        <p>Last Name: <input placeholder="Enter Last Name"  id="input1"></p> 
+    </div>
+     <div class="input">
+        <p>First Name: <input placeholder="Enter Fist Name" id="input2"></p> 
+    </div>
+    <div class="input">
+        <p style="margin-right: 5.5%;">Gender: <select id = "input3" name="Gender" placeholder="Gender"><option>Select Gender<option>Male<option>Female</select></p> 
+    </div>
+     <div class="input">
+        <p style="margin-right: 4.5%;">Email Address: <input placeholder="Enter Email Address"  id="input4"></p> 
+    </div>
+     <div class="input">
+        <p style="margin-left: 3.5%;">Origin: <input placeholder="Enter Origin" id="input5"></p> 
+    </div>
+    <div class="input">
+        <p style="margin-right: 1.5%;">Destination: <input placeholder="Enter Destination" id="input6"></p> 
+    </div>
+    <div class="input">
+        <p style="margin-right: 12%;">Departure Date: <input type="date" id="input7" name="trip-start"
+       value=""
+       min="2020-01-21" max="2050-12-31"></p> 
+    </div>
+    
+     <div class="input">
+        <p style="margin-right: 9%;">Return Date: <input type="date" id="input8" name="trip-start2"
+       value=""
+       min="2020-01-21" max="2050-12-31"></p> 
+    </div>
+    <button onclick="data_entry()">Submit</button>
+     
+    <p id="LN"></p>
+    <p id="FN"></p>
+    <p id="G"></p>
+    <p id="EA"></p>
+    <p id="O"></p>
+    <p id="D"></p>
+    <p id="DD"></p>
+    <p id="RD"></p>
+    
+</body>
+
+
+
+
+
+
+
+
+
+</html>
